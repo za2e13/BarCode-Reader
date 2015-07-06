@@ -1,0 +1,43 @@
+//
+//  ViewController.swift
+//  Cat Years
+//
+//  Created by University on 02/06/2015.
+//  Copyright (c) 2015 Zia_Ahmed. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    
+    @IBOutlet weak var age: UITextField!
+    @IBOutlet weak var resultLabel: UILabel!
+    
+    @IBAction func findAge(sender: AnyObject) {
+
+        let enetredAge = age.text!.toInt()
+        
+        if enetredAge != nil {
+            var catYears = enetredAge! * 7
+            
+            resultLabel.text = "Your cat is \(catYears) in cat years"
+        }else{
+            resultLabel.text = "Please enter a full number"
+            
+        }
+        
+    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+
+}
+

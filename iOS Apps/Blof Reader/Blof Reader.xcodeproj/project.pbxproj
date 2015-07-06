@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187ADABF1B2F51BD006E95B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187ADABE1B2F51BD006E95B7 /* AppDelegate.swift */; };
+		187ADAC21B2F51BD006E95B7 /* Blof_Reader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 187ADAC01B2F51BD006E95B7 /* Blof_Reader.xcdatamodeld */; };
+		187ADAC41B2F51BD006E95B7 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187ADAC31B2F51BD006E95B7 /* MasterViewController.swift */; };
+		187ADAC61B2F51BD006E95B7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187ADAC51B2F51BD006E95B7 /* DetailViewController.swift */; };
+		187ADAC91B2F51BD006E95B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187ADAC71B2F51BD006E95B7 /* Main.storyboard */; };
+		187ADACB1B2F51BD006E95B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187ADACA1B2F51BD006E95B7 /* Images.xcassets */; };
+		187ADACE1B2F51BD006E95B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187ADACC1B2F51BD006E95B7 /* LaunchScreen.xib */; };
+		187ADADA1B2F51BD006E95B7 /* Blof_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187ADAD91B2F51BD006E95B7 /* Blof_ReaderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187ADAD41B2F51BD006E95B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187ADAB11B2F51BD006E95B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187ADAB81B2F51BD006E95B7;
+			remoteInfo = "Blof Reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187ADAB91B2F51BD006E95B7 /* Blof Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blof Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187ADABD1B2F51BD006E95B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187ADABE1B2F51BD006E95B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		187ADAC11B2F51BD006E95B7 /* Blof_Reader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Blof_Reader.xcdatamodel; sourceTree = "<group>"; };
+		187ADAC31B2F51BD006E95B7 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		187ADAC51B2F51BD006E95B7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		187ADAC81B2F51BD006E95B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187ADACA1B2F51BD006E95B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		187ADACD1B2F51BD006E95B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		187ADAD31B2F51BD006E95B7 /* Blof ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blof ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187ADAD81B2F51BD006E95B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187ADAD91B2F51BD006E95B7 /* Blof_ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blof_ReaderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187ADAB61B2F51BD006E95B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187ADAD01B2F51BD006E95B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187ADAB01B2F51BD006E95B7 = {
+			isa = PBXGroup;
+			children = (
+				187ADABB1B2F51BD006E95B7 /* Blof Reader */,
+				187ADAD61B2F51BD006E95B7 /* Blof ReaderTests */,
+				187ADABA1B2F51BD006E95B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187ADABA1B2F51BD006E95B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187ADAB91B2F51BD006E95B7 /* Blof Reader.app */,
+				187ADAD31B2F51BD006E95B7 /* Blof ReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187ADABB1B2F51BD006E95B7 /* Blof Reader */ = {
+			isa = PBXGroup;
+			children = (
+				187ADABE1B2F51BD006E95B7 /* AppDelegate.swift */,
+				187ADAC31B2F51BD006E95B7 /* MasterViewController.swift */,
+				187ADAC51B2F51BD006E95B7 /* DetailViewController.swift */,
+				187ADAC71B2F51BD006E95B7 /* Main.storyboard */,
+				187ADACA1B2F51BD006E95B7 /* Images.xcassets */,
+				187ADACC1B2F51BD006E95B7 /* LaunchScreen.xib */,
+				187ADAC01B2F51BD006E95B7 /* Blof_Reader.xcdatamodeld */,
+				187ADABC1B2F51BD006E95B7 /* Supporting Files */,
+			);
+			path = "Blof Reader";
+			sourceTree = "<group>";
+		};
+		187ADABC1B2F51BD006E95B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187ADABD1B2F51BD006E95B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187ADAD61B2F51BD006E95B7 /* Blof ReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				187ADAD91B2F51BD006E95B7 /* Blof_ReaderTests.swift */,
+				187ADAD71B2F51BD006E95B7 /* Supporting Files */,
+			);
+			path = "Blof ReaderTests";
+			sourceTree = "<group>";
+		};
+		187ADAD71B2F51BD006E95B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187ADAD81B2F51BD006E95B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187ADAB81B2F51BD006E95B7 /* Blof Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187ADADD1B2F51BD006E95B7 /* Build configuration list for PBXNativeTarget "Blof Reader" */;
+			buildPhases = (
+				187ADAB51B2F51BD006E95B7 /* Sources */,
+				187ADAB61B2F51BD006E95B7 /* Frameworks */,
+				187ADAB71B2F51BD006E95B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blof Reader";
+			productName = "Blof Reader";
+			productReference = 187ADAB91B2F51BD006E95B7 /* Blof Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187ADAD21B2F51BD006E95B7 /* Blof ReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187ADAE01B2F51BD006E95B7 /* Build configuration list for PBXNativeTarget "Blof ReaderTests" */;
+			buildPhases = (
+				187ADACF1B2F51BD006E95B7 /* Sources */,
+				187ADAD01B2F51BD006E95B7 /* Frameworks */,
+				187ADAD11B2F51BD006E95B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187ADAD51B2F51BD006E95B7 /* PBXTargetDependency */,
+			);
+			name = "Blof ReaderTests";
+			productName = "Blof ReaderTests";
+			productReference = 187ADAD31B2F51BD006E95B7 /* Blof ReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187ADAB11B2F51BD006E95B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Zia_Ahmed;
+				TargetAttributes = {
+					187ADAB81B2F51BD006E95B7 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					187ADAD21B2F51BD006E95B7 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 187ADAB81B2F51BD006E95B7;
+					};
+				};
+			};
+			buildConfigurationList = 187ADAB41B2F51BD006E95B7 /* Build configuration list for PBXProject "Blof Reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187ADAB01B2F51BD006E95B7;
+			productRefGroup = 187ADABA1B2F51BD006E95B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187ADAB81B2F51BD006E95B7 /* Blof Reader */,
+				187ADAD21B2F51BD006E95B7 /* Blof ReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187ADAB71B2F51BD006E95B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187ADAC91B2F51BD006E95B7 /* Main.storyboard in Resources */,
+				187ADACE1B2F51BD006E95B7 /* LaunchScreen.xib in Resources */,
+				187ADACB1B2F51BD006E95B7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187ADAD11B2F51BD006E95B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187ADAB51B2F51BD006E95B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187ADABF1B2F51BD006E95B7 /* AppDelegate.swift in Sources */,
+				187ADAC21B2F51BD006E95B7 /* Blof_Reader.xcdatamodeld in Sources */,
+				187ADAC41B2F51BD006E95B7 /* MasterViewController.swift in Sources */,
+				187ADAC61B2F51BD006E95B7 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187ADACF1B2F51BD006E95B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187ADADA1B2F51BD006E95B7 /* Blof_ReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187ADAD51B2F51BD006E95B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187ADAB81B2F51BD006E95B7 /* Blof Reader */;
+			targetProxy = 187ADAD41B2F51BD006E95B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187ADAC71B2F51BD006E95B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187ADAC81B2F51BD006E95B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187ADACC1B2F51BD006E95B7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187ADACD1B2F51BD006E95B7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187ADADB1B2F51BD006E95B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		187ADADC1B2F51BD006E95B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187ADADE1B2F51BD006E95B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Blof Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187ADADF1B2F51BD006E95B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Blof Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		187ADAE11B2F51BD006E95B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Blof ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blof Reader.app/Blof Reader";
+			};
+			name = Debug;
+		};
+		187ADAE21B2F51BD006E95B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Blof ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blof Reader.app/Blof Reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187ADAB41B2F51BD006E95B7 /* Build configuration list for PBXProject "Blof Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187ADADB1B2F51BD006E95B7 /* Debug */,
+				187ADADC1B2F51BD006E95B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187ADADD1B2F51BD006E95B7 /* Build configuration list for PBXNativeTarget "Blof Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187ADADE1B2F51BD006E95B7 /* Debug */,
+				187ADADF1B2F51BD006E95B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		187ADAE01B2F51BD006E95B7 /* Build configuration list for PBXNativeTarget "Blof ReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187ADAE11B2F51BD006E95B7 /* Debug */,
+				187ADAE21B2F51BD006E95B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		187ADAC01B2F51BD006E95B7 /* Blof_Reader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				187ADAC11B2F51BD006E95B7 /* Blof_Reader.xcdatamodel */,
+			);
+			currentVersion = 187ADAC11B2F51BD006E95B7 /* Blof_Reader.xcdatamodel */;
+			path = Blof_Reader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 187ADAB11B2F51BD006E95B7 /* Project object */;
+}

@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BDD8131B2C9AE6001EAEDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BDD8121B2C9AE6001EAEDA /* AppDelegate.swift */; };
+		18BDD8151B2C9AE6001EAEDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BDD8141B2C9AE6001EAEDA /* ViewController.swift */; };
+		18BDD8181B2C9AE6001EAEDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BDD8161B2C9AE6001EAEDA /* Main.storyboard */; };
+		18BDD81A1B2C9AE6001EAEDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BDD8191B2C9AE6001EAEDA /* Images.xcassets */; };
+		18BDD81D1B2C9AE6001EAEDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BDD81B1B2C9AE6001EAEDA /* LaunchScreen.xib */; };
+		18BDD8291B2C9AE6001EAEDA /* ShakeAndSwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BDD8281B2C9AE6001EAEDA /* ShakeAndSwipeTests.swift */; };
+		18BDD8351B2CA81D001EAEDA /* ding_dong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18BDD8341B2CA81D001EAEDA /* ding_dong.mp3 */; };
+		18BDD83E1B2CAA35001EAEDA /* bean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18BDD8361B2CAA35001EAEDA /* bean.mp3 */; };
+		18BDD83F1B2CAA35001EAEDA /* belch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18BDD8371B2CAA35001EAEDA /* belch.mp3 */; };
+		18BDD8401B2CAA35001EAEDA /* giggle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18BDD8381B2CAA35001EAEDA /* giggle.mp3 */; };
+		18BDD8411B2CAA35001EAEDA /* pew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18BDD8391B2CAA35001EAEDA /* pew.mp3 */; };
+		18BDD8421B2CAA35001EAEDA /* pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18BDD83A1B2CAA35001EAEDA /* pig.mp3 */; };
+		18BDD8431B2CAA35001EAEDA /* snore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18BDD83B1B2CAA35001EAEDA /* snore.mp3 */; };
+		18BDD8441B2CAA35001EAEDA /* static.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18BDD83C1B2CAA35001EAEDA /* static.mp3 */; };
+		18BDD8451B2CAA35001EAEDA /* uuu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18BDD83D1B2CAA35001EAEDA /* uuu.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BDD8231B2C9AE6001EAEDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BDD8051B2C9AE6001EAEDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BDD80C1B2C9AE6001EAEDA;
+			remoteInfo = ShakeAndSwipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18BDD80D1B2C9AE6001EAEDA /* ShakeAndSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeAndSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BDD8111B2C9AE6001EAEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BDD8121B2C9AE6001EAEDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18BDD8141B2C9AE6001EAEDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18BDD8171B2C9AE6001EAEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BDD8191B2C9AE6001EAEDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18BDD81C1B2C9AE6001EAEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18BDD8221B2C9AE6001EAEDA /* ShakeAndSwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeAndSwipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BDD8271B2C9AE6001EAEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BDD8281B2C9AE6001EAEDA /* ShakeAndSwipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAndSwipeTests.swift; sourceTree = "<group>"; };
+		18BDD8341B2CA81D001EAEDA /* ding_dong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding_dong.mp3; sourceTree = "<group>"; };
+		18BDD8361B2CAA35001EAEDA /* bean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bean.mp3; sourceTree = "<group>"; };
+		18BDD8371B2CAA35001EAEDA /* belch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = belch.mp3; sourceTree = "<group>"; };
+		18BDD8381B2CAA35001EAEDA /* giggle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = giggle.mp3; sourceTree = "<group>"; };
+		18BDD8391B2CAA35001EAEDA /* pew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pew.mp3; sourceTree = "<group>"; };
+		18BDD83A1B2CAA35001EAEDA /* pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig.mp3; sourceTree = "<group>"; };
+		18BDD83B1B2CAA35001EAEDA /* snore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snore.mp3; sourceTree = "<group>"; };
+		18BDD83C1B2CAA35001EAEDA /* static.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = static.mp3; sourceTree = "<group>"; };
+		18BDD83D1B2CAA35001EAEDA /* uuu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uuu.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BDD80A1B2C9AE6001EAEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDD81F1B2C9AE6001EAEDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BDD8041B2C9AE6001EAEDA = {
+			isa = PBXGroup;
+			children = (
+				18BDD80F1B2C9AE6001EAEDA /* ShakeAndSwipe */,
+				18BDD8251B2C9AE6001EAEDA /* ShakeAndSwipeTests */,
+				18BDD80E1B2C9AE6001EAEDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18BDD80E1B2C9AE6001EAEDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BDD80D1B2C9AE6001EAEDA /* ShakeAndSwipe.app */,
+				18BDD8221B2C9AE6001EAEDA /* ShakeAndSwipeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BDD80F1B2C9AE6001EAEDA /* ShakeAndSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				18BDD8121B2C9AE6001EAEDA /* AppDelegate.swift */,
+				18BDD8141B2C9AE6001EAEDA /* ViewController.swift */,
+				18BDD8161B2C9AE6001EAEDA /* Main.storyboard */,
+				18BDD8331B2CA7F2001EAEDA /* Sounds */,
+				18BDD8191B2C9AE6001EAEDA /* Images.xcassets */,
+				18BDD81B1B2C9AE6001EAEDA /* LaunchScreen.xib */,
+				18BDD8101B2C9AE6001EAEDA /* Supporting Files */,
+			);
+			path = ShakeAndSwipe;
+			sourceTree = "<group>";
+		};
+		18BDD8101B2C9AE6001EAEDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BDD8111B2C9AE6001EAEDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BDD8251B2C9AE6001EAEDA /* ShakeAndSwipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				18BDD8281B2C9AE6001EAEDA /* ShakeAndSwipeTests.swift */,
+				18BDD8261B2C9AE6001EAEDA /* Supporting Files */,
+			);
+			path = ShakeAndSwipeTests;
+			sourceTree = "<group>";
+		};
+		18BDD8261B2C9AE6001EAEDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BDD8271B2C9AE6001EAEDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BDD8331B2CA7F2001EAEDA /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				18BDD8361B2CAA35001EAEDA /* bean.mp3 */,
+				18BDD8371B2CAA35001EAEDA /* belch.mp3 */,
+				18BDD8381B2CAA35001EAEDA /* giggle.mp3 */,
+				18BDD8391B2CAA35001EAEDA /* pew.mp3 */,
+				18BDD83A1B2CAA35001EAEDA /* pig.mp3 */,
+				18BDD83B1B2CAA35001EAEDA /* snore.mp3 */,
+				18BDD83C1B2CAA35001EAEDA /* static.mp3 */,
+				18BDD83D1B2CAA35001EAEDA /* uuu.mp3 */,
+				18BDD8341B2CA81D001EAEDA /* ding_dong.mp3 */,
+			);
+			name = Sounds;
+			path = ../ShakeAndSwipe.xcodeproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BDD80C1B2C9AE6001EAEDA /* ShakeAndSwipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BDD82C1B2C9AE6001EAEDA /* Build configuration list for PBXNativeTarget "ShakeAndSwipe" */;
+			buildPhases = (
+				18BDD8091B2C9AE6001EAEDA /* Sources */,
+				18BDD80A1B2C9AE6001EAEDA /* Frameworks */,
+				18BDD80B1B2C9AE6001EAEDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeAndSwipe;
+			productName = ShakeAndSwipe;
+			productReference = 18BDD80D1B2C9AE6001EAEDA /* ShakeAndSwipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BDD8211B2C9AE6001EAEDA /* ShakeAndSwipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BDD82F1B2C9AE6001EAEDA /* Build configuration list for PBXNativeTarget "ShakeAndSwipeTests" */;
+			buildPhases = (
+				18BDD81E1B2C9AE6001EAEDA /* Sources */,
+				18BDD81F1B2C9AE6001EAEDA /* Frameworks */,
+				18BDD8201B2C9AE6001EAEDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BDD8241B2C9AE6001EAEDA /* PBXTargetDependency */,
+			);
+			name = ShakeAndSwipeTests;
+			productName = ShakeAndSwipeTests;
+			productReference = 18BDD8221B2C9AE6001EAEDA /* ShakeAndSwipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BDD8051B2C9AE6001EAEDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Zia_Ahmed;
+				TargetAttributes = {
+					18BDD80C1B2C9AE6001EAEDA = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					18BDD8211B2C9AE6001EAEDA = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 18BDD80C1B2C9AE6001EAEDA;
+					};
+				};
+			};
+			buildConfigurationList = 18BDD8081B2C9AE6001EAEDA /* Build configuration list for PBXProject "ShakeAndSwipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BDD8041B2C9AE6001EAEDA;
+			productRefGroup = 18BDD80E1B2C9AE6001EAEDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BDD80C1B2C9AE6001EAEDA /* ShakeAndSwipe */,
+				18BDD8211B2C9AE6001EAEDA /* ShakeAndSwipeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BDD80B1B2C9AE6001EAEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BDD8451B2CAA35001EAEDA /* uuu.mp3 in Resources */,
+				18BDD8351B2CA81D001EAEDA /* ding_dong.mp3 in Resources */,
+				18BDD8411B2CAA35001EAEDA /* pew.mp3 in Resources */,
+				18BDD8431B2CAA35001EAEDA /* snore.mp3 in Resources */,
+				18BDD83E1B2CAA35001EAEDA /* bean.mp3 in Resources */,
+				18BDD8421B2CAA35001EAEDA /* pig.mp3 in Resources */,
+				18BDD8441B2CAA35001EAEDA /* static.mp3 in Resources */,
+				18BDD8401B2CAA35001EAEDA /* giggle.mp3 in Resources */,
+				18BDD8181B2C9AE6001EAEDA /* Main.storyboard in Resources */,
+				18BDD83F1B2CAA35001EAEDA /* belch.mp3 in Resources */,
+				18BDD81D1B2C9AE6001EAEDA /* LaunchScreen.xib in Resources */,
+				18BDD81A1B2C9AE6001EAEDA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDD8201B2C9AE6001EAEDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BDD8091B2C9AE6001EAEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BDD8151B2C9AE6001EAEDA /* ViewController.swift in Sources */,
+				18BDD8131B2C9AE6001EAEDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BDD81E1B2C9AE6001EAEDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BDD8291B2C9AE6001EAEDA /* ShakeAndSwipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BDD8241B2C9AE6001EAEDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BDD80C1B2C9AE6001EAEDA /* ShakeAndSwipe */;
+			targetProxy = 18BDD8231B2C9AE6001EAEDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18BDD8161B2C9AE6001EAEDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BDD8171B2C9AE6001EAEDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BDD81B1B2C9AE6001EAEDA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BDD81C1B2C9AE6001EAEDA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BDD82A1B2C9AE6001EAEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18BDD82B1B2C9AE6001EAEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BDD82D1B2C9AE6001EAEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakeAndSwipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18BDD82E1B2C9AE6001EAEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakeAndSwipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18BDD8301B2C9AE6001EAEDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShakeAndSwipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeAndSwipe.app/ShakeAndSwipe";
+			};
+			name = Debug;
+		};
+		18BDD8311B2C9AE6001EAEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShakeAndSwipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeAndSwipe.app/ShakeAndSwipe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BDD8081B2C9AE6001EAEDA /* Build configuration list for PBXProject "ShakeAndSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDD82A1B2C9AE6001EAEDA /* Debug */,
+				18BDD82B1B2C9AE6001EAEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BDD82C1B2C9AE6001EAEDA /* Build configuration list for PBXNativeTarget "ShakeAndSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDD82D1B2C9AE6001EAEDA /* Debug */,
+				18BDD82E1B2C9AE6001EAEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18BDD82F1B2C9AE6001EAEDA /* Build configuration list for PBXNativeTarget "ShakeAndSwipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BDD8301B2C9AE6001EAEDA /* Debug */,
+				18BDD8311B2C9AE6001EAEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BDD8051B2C9AE6001EAEDA /* Project object */;
+}
